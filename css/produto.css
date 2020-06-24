@@ -1,0 +1,186 @@
+.produto-img{
+    
+}
+.produto-img img{
+    width: 80%;
+    float: left;
+} 
+
+.produto-desc{
+    
+}
+.produto-desc h2{
+    margin: 0;
+    color: #fe6400;
+}
+.produto-desc h2 span{
+    color: #222;
+}
+.preco-a-partir{
+    display: block;
+    margin-bottom: 2%;
+}
+.preco-de{
+    text-decoration: line-through;
+    font-size: 1em;
+}
+.preco-para{
+    font-size: 1.4em;
+    margin-left: 2%;
+    color: #fe6400;
+}
+.preco-un{
+    font-size: 0.8em;
+}
+.produto-desc p{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+.produto-desc p span{
+    font-size: 1.1em;
+    margin-left: 1%;
+}
+.btn-solicity{
+    float: left;
+    width: 50%;
+    font-size: 1.4em;
+    color: #FFF;
+    background-color: #fe6400;
+    display: block;
+    margin-right: 50%;
+    margin-bottom: 0%;
+    margin-top: 4%;
+}
+.btn-solicity:hover{
+    color: #FFF;
+    background-color: #fe6400;
+    z-index: 1!important;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);   
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.comprar-obs{
+    margin-bottom: 5%;
+    display: block;
+}
+.pay-forms{
+    width: 12%;
+}
+.pay-forms-pagseguro{
+    width: 20%;
+}
+
+@media(max-width: 993px){
+    .produto-img{
+       width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .produto-img img{
+    position: relative;
+    width: 100%;
+    float: left;
+    } 
+
+    .produto-desc{
+       display: inline-block;
+        float: left;
+        width: 50%;
+    }
+}
+@media(max-width: 768px){
+    .produto-img{
+       width: 100%;
+       float: left;
+       display: inline-block;
+    }
+    .produto-img img{
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+    }
+    .produto-desc{
+       display: inline-block;
+        float: left;
+        width: 100%;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .btn-solicity{
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media(max-width: 500px){
+    .produto-img img{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    }
+}
+@media(max-width: 370px){
+    .produto-img img{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    }
+    .produto-desc h2{
+    margin: 0;
+    color: #fe6400;
+    font-size: 1.7em;
+    }
+    .btn-solicity{
+        float: none;
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+.tab{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.nav-tabs{
+    border-bottom: 1px solid #222!important;
+}
+.nav-tabs li{
+    margin-right: 1%;
+    text-transform: uppercase;
+}
+.nav-tabs li a:hover{
+    text-decoration: none;
+}
+.nav-tabs li a{
+    color: #222!important;
+}
+.nav-link{
+    border: 1px solid #222!important;
+}
+.tab-pane{
+    border-left: 1px solid #222;
+}
+.detalhes{
+    padding: 2% 3%;
+    width: 80%;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+.politica{
+    padding: 2% 3%;
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+footer{
+    margin-bottom: -200px;
+}
